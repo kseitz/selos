@@ -100,6 +100,8 @@ Installing
 Running the Deferred Renderer
 =============================
 
+**Note:** The default window size is 1920 x 1080. You can change the window size by editing the `MAX_WINDOW_WIDTH` and `MAX_WINDOW_HEIGHT` variables in `$SELOS/examples/deferredRenderer/constants.t`.
+
 1) Compile the shaders and the runtime application:
 
    ```Shell
@@ -145,32 +147,32 @@ Running the Specialization Design Space Exploration
 To run the specialization design space exploration case study as presented in the paper, use the `-a` argument when launching the runtime application:
 
 ```Shell
-cd $SELOS/examples/deferredRenderer
+cd $SELOS/examples/deferredRenderer/build
 runGame-OpenGL.exe -a
 ```
 
 or
 
 ```Shell
-cd $SELOS/examples/deferredRenderer
+cd $SELOS/examples/deferredRenderer/build
 runGame-D3D11.exe -a
 ```
 
 **Note** This will take a long time to complete. You can adjust some testing parameters in `$SELOS/examples/deferredRenderer/constants.t` to decrease testing time at the cost of accuracy.
 
-Results are written to `$SELOS/examples/deferredRenderer/build/output/{D3D11,OpenGL]/`, including partial results as the test is running.
+Results are written to `$SELOS/examples/deferredRenderer/build/output/{D3D11,OpenGL}/`, including partial results as the test is running.
 
 You can also run individual parts of the test by specifying how many features you want to allow to be specialized. Use the `-sN` argument for this purpose, where `N` is the number of features to specialize (0 <= `N` <= 6). For example, if you want to allow only 3 features to be specialized at a time:
 
    ```Shell
-   cd $SELOS/examples/deferredRenderer
+   cd $SELOS/examples/deferredRenderer/build
    runGame-OpenGL.exe -s3
    ```
 
   or
 
    ```Shell
-   cd $SELOS/examples/deferredRenderer
+   cd $SELOS/examples/deferredRenderer/build
    runGame-D3D11.exe -s3
    ```
 
