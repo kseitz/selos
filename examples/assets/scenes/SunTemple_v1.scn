@@ -1,0 +1,173 @@
+camera {
+  sensitivity = 1
+  position = 0.01715730130672455 3.184415578842163 71.125
+  target = 0.008677838370203972 3.20275616645813 70.12520599365235
+  up = 0.002032371936365962 0.999836266040802 0.01836729794740677
+}
+
+object {
+  name = SunTemple
+  filename = ../../assets/models/SunTemple_v1/SunTemple.fbx
+  transforms {
+    scale 1.0 1.0 1.0
+  }
+  materialModelOverrides {
+    M_FirePit_Inst        = StandardMaterialWithClearCoat
+    M_FirePit_Inst_Glow   = StandardMaterialWithClearCoat
+    M_FirePit_Inst_nofire = StandardMaterialWithClearCoat
+    M_Statue_Inst = SubsurfaceMaterial
+  }
+}
+
+object {
+  name = Cloth0
+  filename = ../../assets/models/cloth/cloth.obj
+  materialModel = ClothMaterial
+  transforms {
+    translate -2.8546500205993654 3.468505859375 66.39163970947266
+    scale 0.2 0.2 0.2
+    rotate 50 0 1 0
+  }
+}
+
+object {
+  name = Cloth1
+  filename = ../../assets/models/cloth/cloth.obj
+  materialModel = ClothMaterial
+  transforms {
+    translate 3.0635008811950685 3.468505859375 66.34196472167969
+    scale 0.2 0.2 0.2
+    rotate -50 0 1 0
+  }
+}
+
+object {
+  name = Cloth2
+  filename = ../../assets/models/cloth/cloth.obj
+  materialModel = ClothMaterial
+  transforms {
+    translate 3.0635008811950685 3.468505859375 49.689964294433597
+    scale 0.2 0.2 0.2
+    rotate -50 0 1 0
+  }
+}
+
+object {
+  name = Cloth3
+  filename = ../../assets/models/cloth/cloth.obj
+  materialModel = ClothMaterial
+  transforms {
+    translate -2.8546500205993654 3.468505859375 49.75494384765625
+    scale 0.2 0.2 0.2
+    rotate 50 0 1 0
+  }
+}
+
+object {
+  name = Cloth4
+  filename = ../../assets/models/cloth/cloth.obj
+  materialModel = ClothMaterial
+  transforms {
+    translate -0.06653916835784912 6.099518775939941 30.068578720092775
+    scale 0.3 0.3 0.3
+    rotate -40 0 1 0
+  }
+}
+
+object {
+  name = Cloth5
+  filename = ../../assets/models/cloth/cloth.obj
+  materialModel = ClothMaterial
+  transforms {
+    translate 0.10814739763736725 10.428841590881348 -0.06849503517150879
+    scale 0.4 0.4 0.4
+    rotate 40 0 1 0
+  }
+}
+
+
+-- LIGHTS
+
+dirLight {
+  name = dirLight0
+  intensity = 1 1 1
+  direction = 0.8601616621017456 -0.11900000274181366 0.49594444036483767
+}
+
+pointLight {
+  name = PointLight0
+  intensity = 1.0 0.6000000238418579 0.3137255012989044
+  position = 1.6393406391143799 2.450000047683716 70.8550033569336
+}
+
+pointLight {
+  name = PointLight1
+  intensity = 1.0 0.6000000238418579 0.3137255012989044
+  position = -1.4549025297164918 2.450000047683716 70.8550033569336
+}
+
+shadowedPointLight {
+  name = PointLight2
+  intensity = 1.0 0.6000000238418579 0.3137255012989044
+  position = -2.093762159347534 2.450000047683716 50.80758285522461
+}
+
+pointLight {
+  name = PointLight3
+  intensity = 0.25 0.020588235929608346 0.0
+  position = 0.0 1.723734974861145 58.020023345947269
+}
+
+pointLight {
+  name = PointLight4
+  intensity = 1.0 0.6000000238418579 0.3137255012989044
+  position = -7.148975372314453 2.450000047683716 43.18354034423828
+}
+
+pointLight {
+  name = PointLight5
+  intensity = 1.0 0.6000000238418579 0.3137255012989044
+  position = 7.211925506591797 2.450000047683716 43.288002014160159
+}
+
+shadowedPointLight {
+  name = PointLight6
+  intensity = 1.0 0.6039215922355652 0.3137255012989044
+  position = 2.4240572452545168 2.450000047683716 28.55856704711914
+}
+
+pointLight {
+  name = PointLight7
+  intensity = 1.0 0.6000000238418579 0.3137255012989044
+  position = 7.45982027053833 4.4150004386901859 18.061458587646486
+}
+
+pointLight {
+  name = PointLight8
+  intensity = 1.0 0.6039215922355652 0.3137255012989044
+  position = 7.909985065460205 4.414999961853027 -2.1510772705078127
+}
+
+pointLight {
+  name = PointLight9
+  intensity = 1.0 0.6039215922355652 0.3137255012989044
+  position = 2.1134257316589357 4.414999961853027 -7.972902297973633
+}
+
+pointLight {
+  name = PointLight10
+  intensity = 1.0 0.6039215922355652 0.3137255012989044
+  position = -7.98183012008667 4.414999961853027 -2.0562009811401369
+}
+
+pointLight {
+  name = PointLight11
+  intensity = 1.0 0.6039215922355652 0.3137255012989044
+  position = -3.0991241931915285 4.414999961853027 7.863924026489258
+}
+
+pointLight {
+  name = PointLight12
+  intensity = 0.250980406999588 0.021568628028035165 0.0
+  position = -0.028223201632499696 1.624000072479248 31.539669036865236
+}
