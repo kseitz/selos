@@ -1,10 +1,19 @@
 # Selos
 
-This repository contains source code supporting the SIGGRAPH Asia 2019 paper "Staged Metaprogramming for Shader System Development" by Kerry A. Seitz, Jr., Tim Foley, Serban D. Porumbescu, and John D. Owens.
+This repository contains source code supporting the SIGGRAPH Asia 2019 paper:
 
-The definitive version of the paper is published in ACM Transactions on Graphics, Vol. 38, No. 6, Article 202 (November 2019). DOI: [https://doi.org/10.1145/3355089.3356554](https://doi.org/10.1145/3355089.3356554)
+**Staged Metaprogramming for Shader System Development**\
+[Kerry A. Seitz, Jr.](https://seitz.tech/), [Tim Foley](https://research.nvidia.com/person/tim-foley), [Serban D. Porumbescu](http://graphics.cs.ucdavis.edu/~porumbes), and [John D. Owens](https://www.ece.ucdavis.edu/~jowens/)\
+ACM Transactions on Graphics (TOG) &mdash; SIGGRAPH Asia 2019\
+Volume 38 Issue 6, November 2019\
+Article No. 202
 
-The author's version of the paper can be downloaded at [https://escholarship.org/uc/item/2f8448n2](https://escholarship.org/uc/item/2f8448n2)
+DOI: [https://doi.org/10.1145/3355089.3356554](https://doi.org/10.1145/3355089.3356554)\
+ACM Paper: [https://dl.acm.org/citation.cfm?id=3356554](https://dl.acm.org/citation.cfm?id=3356554)\
+Author Preprint: [https://escholarship.org/uc/item/2f8448n2](https://escholarship.org/uc/item/2f8448n2)\
+Slides (pptx): [Selos-SIGGRAPHAsia2019.pptx](https://seitz.tech/publications/2019/slides/Selos-SIGGRAPHAsia2019.pptx)\
+Slides (pdf):  [Selos-SIGGRAPHAsia2019.pdf](https://seitz.tech/publications/2019/slides/Selos-SIGGRAPHAsia2019.pdf)\
+Code: [https://github.com/kseitz/selos](https://github.com/kseitz/selos)
 
 
 Getting Started
