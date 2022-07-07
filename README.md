@@ -3,7 +3,7 @@
 This repository contains source code supporting the SIGGRAPH Asia 2019 paper:
 
 **Staged Metaprogramming for Shader System Development**\
-[Kerry A. Seitz, Jr.](https://seitz.tech/), [Tim Foley](https://research.nvidia.com/person/tim-foley), [Serban D. Porumbescu](http://graphics.cs.ucdavis.edu/~porumbes), and [John D. Owens](https://www.ece.ucdavis.edu/~jowens/)\
+[Kerry A. Seitz, Jr.](https://seitz.tech/), T. Foley, [Serban D. Porumbescu](http://graphics.cs.ucdavis.edu/~porumbes), and [John D. Owens](https://www.ece.ucdavis.edu/~jowens/)\
 ACM Transactions on Graphics (TOG) &mdash; SIGGRAPH Asia 2019\
 Volume 38 Issue 6, November 2019\
 Article No. 202
