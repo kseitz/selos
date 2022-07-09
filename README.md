@@ -9,6 +9,7 @@ Volume 38 Issue 6, November 2019\
 Article No. 202
 
 DOI: [https://doi.org/10.1145/3355089.3356554](https://doi.org/10.1145/3355089.3356554)\
+BibTeX: [selos.bib](https://seitz.tech/publications/2019/bib/selos.bib)\
 ACM Paper: [https://dl.acm.org/citation.cfm?id=3356554](https://dl.acm.org/citation.cfm?id=3356554)\
 Author Preprint: [https://escholarship.org/uc/item/2f8448n2](https://escholarship.org/uc/item/2f8448n2)\
 Slides (pptx): [Selos-SIGGRAPHAsia2019.pptx](https://seitz.tech/publications/2019/slides/Selos-SIGGRAPHAsia2019.pptx)\
